@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="marcasCelulares">
+        <item>Selecciona una marca 🙏</item>
+        //lista de telefonos orfdenada alfabeticamente
+        <item>Alcatel</item>
+        <item>Apple 🍎</item>
+        <item>Asus</item>
+        <item>BlackBerry 🫐</item>
+        <item>Google</item>
+        <item>Huawei</item>
+        <item>LG</item>
+        <item>Motorola</item>
+        <item>Nokia</item>
+        <item>Samsung</item>
+        <item>Sony</item>
+        <item>Xiaomi 🤔</item>
+        <item>ZTE</item>
+    </string-array>
+</resources>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_horizontal"
+    android:textSize="18sp"
+    android:textStyle="bold"
+    android:lineSpacingExtra="8dp"
+    android:letterSpacing="0.05"
+    android:lineSpacingMultiplier="1.2"
+    android:fontFamily="sans-serif"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="64dp"/>
+
+    <Spinner
+        android:id="@+id/spDias"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="44dp"/>
+
+    <TextView
+        android:id="@+id/tvMensaje1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="64dp"/>
+
+    <Spinner
+        android:id="@+id/spMarcasCelulares"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="44dp"/>
+
+    <TextView
+        android:id="@+id/tvMensaje2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+</LinearLayout>
